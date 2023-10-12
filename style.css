@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ebd7d7;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    height: 150px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+nav {
+    background-color: #444;
+    text-align: center;
+    padding: 10px 0;
+    font-family: montserrat ;
+}
+
+nav a {
+    color: #161515;
+    text-decoration: none;
+    margin: 0 10px;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.container {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+.section h2 {
+    font-size: 24px;
+}
+
+@media (max-width: 768px) {
+    nav {
+        padding: 10px 0;
+    }
+
+    nav a {
+        margin: 0 5px;
+    }
+
+    .container {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .section h2 {
+        font-size: 20px;
+    }
+}
+p1{
+    color: dimgrey;
+    font-size: large;
+    font-style: oblique;
+}
+img{
+    width: 4%;
+}
+    
+     
+
+a {
+    font-size: large;
+}
+a.bloc,a:hover{
+    background: #fff;
+    transition: .5s;
+}
+.brain{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    background-color:  #444;
+    align-items: center;
+    padding: 40px;
+    text-align: justify;
+    
+    
+
+}
+.algo{
+    margin-top: 50px;
+      display: flex;
+      background-color: #444;
+      flex-direction: row;
+      align-items: center;
+      padding: 40px;
+}
+.brain p {
+   color: aliceblue;
+  padding: 40px;
+  font-family: Georgia, 'Times New Roman', Times, serif ;
+  font-size: large;
+}
+.algo p{
+    color: aliceblue;
+    padding: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+   font-size: large;
+}
+
+a.border,a{
+    border: 2px solid ;
+    border-color: #fff;
+    border-radius: 0px;
+   
+}
+   
+    
